@@ -1,0 +1,104 @@
+(*) pk => primary_key
+(*) medias are not protected
+
++-----------+
+| Page Urls |
++-----------+
+
+    profile:            https://www.instagram.com/<user-name>/
+    followers:          https://www.instagram.com/<user-name>/followers/
+    following:          https://www.instagram.com/<user-name>/following/
+    hashtag_following:  https://www.instagram.com/<user-name>/hashtag_following/
+    hashtag:            https://www.instagram.com/explore/tags/<tag-name>
+
++---------------------------+
+| Web Profile Info Endpoint |
++---------------------------+
+
+    url: https://www.instagram.com/api/v1/users/web_profile_info/
+
+    params: {
+        username: <user-name>
+    }
+
++--------------------+
+| Followers Endpoint |
++--------------------+
+
+    url: https://www.instagram.com/api/v1/friendships/<user-id>/followers/
+    
+    params: {
+        count: <no-of-records>
+        max_id: <off-set>
+    }
+
++--------------------+
+| Following Endpoint |
++--------------------+
+
+    url: https://www.instagram.com/api/v1/friendships/<user-id>/following/
+
+    params: {
+        count: <no-of-records>
+        max_id: <off-set>
+    }
+
++--------------------+
+| Show Many Endpoint |
++--------------------+
+
+    description: fetches details like
+
+        following:      	false
+        incoming_request:	false
+        is_bestie:      	false
+        is_private:     	true
+        is_restricted:  	false
+        outgoing_request:	false
+        is_feed_favorite:	false
+
+    url: https://www.instagram.com/api/v1/friendships/show_many/
+
+    payload: user_ids=43244594148%2C21914335060%2C44326065767%2C54666379236%2C57152070401%2C53618150835%2C41086186906%2C49945065458%2C49970035490%2C47297791824%2C47374545725%2C48805521469
+
+    %2C = ,
+
++----------------------------+
+| Hashtag Following Endpoint |
++----------------------------+
+
+    url: https://www.instagram.com/graphql/query/
+
+    params: {
+        query_hash: e6306cc3dbe69d6a82ef8b5f8654c50b, # seems to be fixed
+        variables: {
+            id: <user-id>
+        }
+    }
+
+
+
++---------------+
+| Feed Endpoint |
++---------------+
+
+    url: https://www.instagram.com/api/v1/feed/user/3743210749/
+
+    params: {
+        count: <no-of-feeds>
+        max_id: <off-set>
+    }
+
++---------------------+
+| Media Info Endpoint |
++---------------------+
+
+    url: https://www.instagram.com/api/v1/media/{pk}/info/
+
++-------------+
+| Media Types |
++-------------+
+
+    media_type: 1 => images
+    media_type: 2 => video
+    media_type: 8 => carousel

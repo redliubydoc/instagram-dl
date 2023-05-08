@@ -1,0 +1,10 @@
+python -m pip install bs4
+python -m pip install pandas
+python -m pip install requests
+python -m pip install html5lib
+python -m pip install brotlipy
+python -m pip install selenium
+python -m pip install openpyxl
+python -m pip install validators
+python -m pip install pyxtension
+python -m pip install websocket-client

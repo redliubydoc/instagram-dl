@@ -1,0 +1,104 @@
+{
+    "friendship_statuses": {
+        "53594357888": {
+            "following": false,
+            "incoming_request": false,
+            "is_bestie": false,
+            "is_private": true,
+            "is_restricted": false,
+            "outgoing_request": false,
+            "is_feed_favorite": false
+        },
+        "18739080968": {
+            "following": false,
+            "incoming_request": false,
+            "is_bestie": false,
+            "is_private": false,
+            "is_restricted": false,
+            "outgoing_request": false,
+            "is_feed_favorite": false
+        },
+        "55789598346": {
+            "following": false,
+            "incoming_request": false,
+            "is_bestie": false,
+            "is_private": false,
+            "is_restricted": false,
+            "outgoing_request": false,
+            "is_feed_favorite": false
+        },
+        "36326955053": {
+            "following": false,
+            "incoming_request": false,
+            "is_bestie": false,
+            "is_private": false,
+            "is_restricted": false,
+            "outgoing_request": false,
+            "is_feed_favorite": false
+        },
+        "55710747696": {
+            "following": false,
+            "incoming_request": false,
+            "is_bestie": false,
+            "is_private": false,
+            "is_restricted": false,
+            "outgoing_request": false,
+            "is_feed_favorite": false
+        },
+        "52780502642": {
+            "following": false,
+            "incoming_request": false,
+            "is_bestie": false,
+            "is_private": false,
+            "is_restricted": false,
+            "outgoing_request": false,
+            "is_feed_favorite": false
+        },
+        "25232104179": {
+            "following": false,
+            "incoming_request": false,
+            "is_bestie": false,
+            "is_private": false,
+            "is_restricted": false,
+            "outgoing_request": false,
+            "is_feed_favorite": false
+        },
+        "56133590131": {
+            "following": false,
+            "incoming_request": false,
+            "is_bestie": false,
+            "is_private": false,
+            "is_restricted": false,
+            "outgoing_request": false,
+            "is_feed_favorite": false
+        },
+        "45366903890": {
+            "following": false,
+            "incoming_request": false,
+            "is_bestie": false,
+            "is_private": false,
+            "is_restricted": false,
+            "outgoing_request": false,
+            "is_feed_favorite": false
+        },
+        "47410388438": {
+            "following": false,
+            "incoming_request": false,
+            "is_bestie": false,
+            "is_private": false,
+            "is_restricted": false,
+            "outgoing_request": false,
+            "is_feed_favorite": false
+        },
+        "51447493597": {
+            "following": false,
+            "incoming_request": false,
+            "is_bestie": false,
+            "is_private": false,
+            "is_restricted": false,
+            "outgoing_request": false,
+            "is_feed_favorite": false
+        }
+    },
+    "status": "ok"
+}
